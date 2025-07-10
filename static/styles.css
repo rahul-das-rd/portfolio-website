@@ -1003,3 +1003,27 @@ html {
   scroll-behavior: smooth;
   overflow-x: initial !important;
 }
+
+section .container {
+    width: 100%; 
+    max-width: 100%; 
+    padding: 0 5%;
+    box-sizing: border-box; 
+}
+
+.skill-grid, 
+.project-grid, 
+.experience-grid, 
+.education-grid {
+    width: calc(100% - 10px); 
+    margin: 0 auto; 
+    padding: 15px 5%; 
+}
+
+.skill-item, 
+.project-item, 
+.experience-item, 
+.education-item {
+    width: 100%;
+    box-sizing: border-box; 
+}
